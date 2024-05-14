@@ -1,0 +1,53 @@
+{
+  "name": "Memory game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-class-properties": "^7.23.3",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.23.4",
+    "@babel/plugin-transform-numeric-separator": "^7.23.4",
+    "@babel/plugin-transform-optional-chaining": "^7.23.4",
+    "@babel/plugin-transform-private-methods": "^7.23.3",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.9",
+    "@mui/material-next": "^6.0.0-alpha.125",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.16",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.8",
+    "tsparticles": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
