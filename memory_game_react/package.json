@@ -38,7 +38,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "./public/index.html",
+  "homepage": "./build/index.html",
   "browserslist": {
     "production": [
       ">0.2%",
