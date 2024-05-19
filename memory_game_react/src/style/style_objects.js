@@ -1,11 +1,18 @@
 export const initialStyle = {
-  minHeight: "120px",
+  placeSelf: "center",
+  minHeight: "1em",
+  minWidth: "1em",
+  maxHeight: "2em",
+  maxWidth: "2em",
+  height: "1.8em",
+  width: "1.8em",
   fontSize: "45px",
   color: "white",
-  margin: "5px",
+  // margin: "5px",
   display: "grid",
   placeContent: "center",
-  borderRadius: "41px",
+  borderRadius: "50%",
+  WebkitTapHighlightColor: "transparent",
   background: "rgba(31, 78, 107, 0.2)",
   backdropFilter: "blur(3px)",
   border: "1px solid rgba(31, 78, 107, 1)",
@@ -27,11 +34,16 @@ export const matchingStyle = {
 };
 
 export const boardStyle = {
+  // placeSelf: "center",
   height: "70vh",
+  // width: "80%",
+  margin:"0em 3em 0em 3em",
   display: "grid",
   gridTemplateRows: "1fr 1fr 1fr 1fr 1fr",
   gridTemplateColumns: "1fr 1fr 1fr 1fr",
-  gridGap: "8px 20px",
+  placeContent: "center",
+  // gridGap: "8px 5px",
+  // backgroundColor:"green"
 };
 
 export const successModalStyle = (display) => ({
