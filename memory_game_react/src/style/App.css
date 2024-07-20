@@ -45,7 +45,7 @@ body {
 }
 
 #tile {
-  background-image: url("./images/rick_and_morty_portal_1___free_download_by_loaf_of_muffin_dc4z89w-fullview\ 13.jpg");
+  background-image: url("./images/rick_and_morty_portal_1___free_download_by_loaf_of_muffin_dc4z89w-fullview\ 13.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 10;
@@ -85,7 +85,7 @@ body {
 }
 
 #rick-img {
-  background-image: url("./images/Rick-And-Morty-PNG-Picture\ 1.jpg");
+  background-image: url("./images/Rick-And-Morty-PNG-Picture\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
