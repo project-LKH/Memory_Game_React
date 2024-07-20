@@ -1,15 +1,177 @@
+* {
+  width: 100%;
+  height: 100%;
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  font-style: normal;
+  text-decoration: wavy;
+  text-shadow: 0px 0px 8px #00ffe5ea;
+}
+
 .App {
   text-align: center;
   overflow: hidden;
-  background-color: "black";
-  display:grid;
-  place-content: center;
+  background-color: #0f0f0f;
 }
+
 h1 {
   margin: 0;
   padding: 0;
-  font-family: "Jersey 10", sans-serif;
-  font-weight: 400;
-  font-size: 70px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 85px;
   font-style: normal;
+  text-decoration: wavy;
+  text-shadow: 0px 0px 8px #00ffe5ea;
+}
+
+#difficulty {
+  margin: 0;
+  padding: 0;
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  font-style: normal;
+  text-decoration: wavy;
+  text-shadow: 0px 0px 8px #00ffe5ea;
+}
+
+select {
+  outline: none;
+  border: none;
+}
+
+body {
+  background-image: url("./images/wp12609602-rick-and-morty-pc-4k-wallpapers\ 2.png");
+  background-size: cover;
+}
+
+#tile {
+  background-image: url("./images/rick_and_morty_portal_1___free_download_by_loaf_of_muffin_dc4z89w-fullview\ 13.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10;
+}
+
+#success_modal {
+  z-index: 1;
+  background-image: url("./images/wp4945673-rick-and-morty-computer-wallpapers\ 1.png");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+#rick {
+  color: white;
+  background-color: rgba(180, 180, 180, 0.466);
+  border-radius: 14px;
+  border: 1px solid white;
+  min-width: 250px;
+  width: 500px;
+  max-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-self: center;
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(1fr, 1);
+  grid-template-columns: 3fr 2fr;
+}
+
+#rick-img {
+  background-image: url("./images/Rick-And-Morty-PNG-Picture_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  max-height: 100%;
+}
+
+#rick-text {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+#feature-container {
+  height: 60%;
+  width: 100%;
+  color: white;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 680px) {
+  #rick-text {
+    font-size: 0.8em;
+    display: grid;
+    height: 180px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
+
+  p {
+    height: 1px;
+  }
+
+  #rick {
+    min-width: 200px;
+    width: fit-content;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-self: start;
+    align-items: center;
+    place-self: center;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+#title {
+  height: auto;
+  text-align: center;
+  color: teal;
+  user-select: none;
+}
+
+#main-content {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  place-self: center;
+  max-height: 80%;
+  max-width: 90vw;
+}
+
+.center-content {
+  place-self: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+#restart {
+  z-index: 2;
+  font-size: 25px;
+  color: black;
+  height: 10%;
+  justify-self: center;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: wavy;
+  text-shadow: 0px 0px 8px #00ffe5ea;
 }

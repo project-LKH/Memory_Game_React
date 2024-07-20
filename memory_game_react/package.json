@@ -14,17 +14,18 @@
     "@mui/material": "^5.15.9",
     "@mui/material-next": "^6.0.0-alpha.125",
     "@mui/styled-engine-sc": "^6.0.0-alpha.16",
+    "@reduxjs/toolkit": "^2.2.5",
     "@rollup/plugin-terser": "^0.4.4",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@tsparticles/react": "^3.0.0",
-    "@tsparticles/slim": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^9.1.2",
     "react-scripts": "5.0.1",
-    "styled-components": "^6.1.8",
-    "tsparticles": "^3.3.0"
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
