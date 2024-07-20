@@ -1,8 +1,8 @@
 import React from "react";
 import "./style/App.css";
-import Board from "./components/board/Board";
-import Timer from "./components/timer/Timer";
-import DifficultySelector from "./components/difficulty_selector/DifficultySelector";
+import Board from "./components/board/Board.jsx";
+import Timer from "./components/timer/Timer.jsx";
+import DifficultySelector from "./components/difficulty_selector/DifficultySelector.jsx";
 import { Box, Container, CssBaseline } from "@mui/material";
 import { useSelector } from "react-redux";
 

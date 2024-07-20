@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Button } from "@mui/material";
-import { Tile } from "../tile/Tile";
+import { Tile } from "../tile/Tile.jsx";
 import { boardStyle, successModalStyle } from "../../style/styleObjects";
 import { resetState, shuffleTiles } from "../../redux/board/slice";
 import { initializeStyle, resetAllTiles } from "../../redux/tile/slice";
